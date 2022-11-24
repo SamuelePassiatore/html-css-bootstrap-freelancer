@@ -18,6 +18,12 @@
         background-color: orange;
     }
 
+    /* Utils */
+    .button {
+        min-height: 20px;
+        background-color: var(--beige);
+    }
+
     /* Sections */
     .start-bootstrap {
         background-color: var(--green);
@@ -49,13 +55,27 @@
         min-height: 100px;
     }
 
-    .about .row > .col-10{
+    .about .row > .col-10 {
         min-height: 150px;
     }
 
-    .about .button {
-        min-height: 20px;
-        background-color: red;
+
+    .contact {
+        background-color: var(--light-blue-green);
     }
+
+    .contact .row > .col-4 {
+        min-height: 100px;
+    }
+
+    .contact .row > .col-10 {
+        min-height: 100px;
+    }
+
+    .contact .row .col-10:nth-child(4){
+        min-height: 200px;
+    }
+
+
 
 
