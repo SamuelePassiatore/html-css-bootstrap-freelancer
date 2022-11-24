@@ -18,17 +18,23 @@
         background-color: orange;
     }
 
-
-    /* Utils */
-
-
+    /* Sections */
+    .start-bootstrap {
+        background-color: var(--green);
+    }
 
     .jumbotron .row > .col-10 {
         min-height: 300px;
     }
 
+    .portfolio {
+        background-color: var(--white);
+    }
 
-    /* Sections */
-    #start-bootstrap {
-        background-color: var(--green);
+    .title-portfolio .row > .col-4 {
+        min-height: 100px;
+    }
+
+    .title-portfolio .row > .col-12 {
+        min-height: 200px;
     }
