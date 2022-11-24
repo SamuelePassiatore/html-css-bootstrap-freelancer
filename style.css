@@ -23,18 +23,39 @@
         background-color: var(--green);
     }
 
-    .jumbotron .row > .col-10 {
+    .jumbotron .row > .col-11 {
         min-height: 300px;
     }
+
 
     .portfolio {
         background-color: var(--white);
     }
 
-    .title-portfolio .row > .col-4 {
+    .content-portfolio .row > .col-4 {
         min-height: 100px;
     }
 
-    .title-portfolio .row > .col-12 {
+    .content-portfolio .row > .col-12 {
         min-height: 200px;
     }
+
+
+    .about {
+        background-color: var(--bordeaux);
+    }
+
+    .about .row > .col-4 {
+        min-height: 100px;
+    }
+
+    .about .row > .col-10{
+        min-height: 150px;
+    }
+
+    .about .button {
+        min-height: 20px;
+        background-color: red;
+    }
+
+
