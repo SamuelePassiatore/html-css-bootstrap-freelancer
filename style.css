@@ -19,7 +19,8 @@
     }
 
     footer {
-        h
+        height: 80px;
+        background-color: var(--dark-blue);
     }
 
     /* Utils */
@@ -86,7 +87,12 @@
     }
 
     .information .row > .col-11 {
-        min-height: 100px;
+        min-height: 200px;
+    }
+
+
+    footer .row > .col-3 {
+        min-height: 40px;
     }
 
 
