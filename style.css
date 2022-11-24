@@ -1,0 +1,22 @@
+/* Custom properties */
+:root{
+    --green: #1ABC9C;
+    --light-blue-green: #1EA4B6;
+    --white: #FFFFFF;
+    --black: #23272A;
+    --blue: #0E38B5;
+    --dark-blue: #2C3E50;
+    --light-blue: #1C83C1;
+    --light-grey-blue: #3A546D;
+    --bordeaux: #BA4B63;
+    --beige: #CCB2A3;
+}
+  
+/* Generics */
+
+header {
+    height: 80px;
+    background-color: orange;
+}
+
+
