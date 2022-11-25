@@ -32,6 +32,10 @@
         background-color: var(--dark-blue);
     }
 
+    .text-custom-dark-blue {
+        color: var(--dark-blue);
+    }
+
     /* Sections */
 
     /* Jumbotron */
@@ -39,12 +43,9 @@
         background-color: var(--green);
     }
 
+    /* Section portfolio */
     .portfolio {
         background-color: var(--white);
-    }
-
-    .content-portfolio .row > .col-4 {
-        min-height: 100px;
     }
 
     .content-portfolio .row > .col-12 {
