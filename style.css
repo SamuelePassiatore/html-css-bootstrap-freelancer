@@ -23,11 +23,6 @@
     }
 
     /* Utils */
-    .button {
-        min-height: 20px;
-        background-color: var(--beige);
-    }
-
     .bg-custom-dark-blue {
         background-color: var(--dark-blue);
     }
@@ -48,21 +43,10 @@
         background-color: var(--white);
     }
 
-    .content-portfolio .row > .col-12 {
-        min-height: 200px;
-    }
-
+    /* Section about */
 
     .about {
-        background-color: var(--bordeaux);
-    }
-
-    .about .row > .col-4 {
-        min-height: 100px;
-    }
-
-    .about .row > .col-10 {
-        min-height: 150px;
+        background-color: var(--green);
     }
 
 
