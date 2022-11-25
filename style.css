@@ -35,6 +35,10 @@
         background-color: var(--green);
     }
 
+    .text-custom-green {
+        color: var(--green);
+    }
+
     /* Sections */
 
     /* Jumbotron */
@@ -48,26 +52,27 @@
     }
 
     /* Section contact  */
-
-    /* .contact::placeholder {
+    .contact textarea.form-control::placeholder {
         color: var(--dark-blue);
-    } */
+    }
 
     .contact .form-control:focus {
         box-shadow: none;
     }
 
-
-
-
-
+    /* Section information */
     .information {
-        background-color: var(--blue);
+        background-color: var(--light-grey-blue);
     }
 
-    .information .row > .col-11 {
-        min-height: 200px;
+    .information .fa-brands {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid white;
+        line-height: 40px;
     }
+
 
 
     footer .row > .col-3 {
