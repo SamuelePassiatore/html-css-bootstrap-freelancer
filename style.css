@@ -31,6 +31,10 @@
         color: var(--dark-blue);
     }
 
+    .bg-custom-green {
+        background-color: var(--green);
+    }
+
     /* Sections */
 
     /* Jumbotron */
@@ -38,33 +42,19 @@
         background-color: var(--green);
     }
 
-    /* Section portfolio */
-    .portfolio {
-        background-color: var(--white);
-    }
-
     /* Section about */
-
     .about {
         background-color: var(--green);
     }
 
+    /* Section contact  */
 
-    .contact {
-        background-color: var(--light-blue-green);
-    }
+    /* .contact::placeholder {
+        color: var(--dark-blue);
+    } */
 
-    .contact .row > .col-4 {
-        min-height: 100px;
-    }
 
-    .contact .row > .col-10 {
-        min-height: 100px;
-    }
-
-    .contact .row .col-10:nth-child(4){
-        min-height: 200px;
-    }
+    
 
 
     .information {
