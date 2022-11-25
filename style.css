@@ -33,14 +33,11 @@
     }
 
     /* Sections */
+
+    /* Jumbotron */
     .start-bootstrap {
         background-color: var(--green);
     }
-
-    .jumbotron .row > .col-11 {
-        min-height: 300px;
-    }
-
 
     .portfolio {
         background-color: var(--white);
