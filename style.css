@@ -15,7 +15,6 @@
     /* Generics */
     header {
         height: 80px;
-        background-color: orange;
     }
 
     footer {
@@ -27,6 +26,10 @@
     .button {
         min-height: 20px;
         background-color: var(--beige);
+    }
+
+    .bg-custom-dark-blue {
+        background-color: var(--dark-blue);
     }
 
     /* Sections */

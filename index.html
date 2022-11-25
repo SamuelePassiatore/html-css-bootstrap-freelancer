@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,18 +15,32 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="container-fluid container-md h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-6 text-bg-primary">title</div>
-                <div class="col-6 text-bg-success text-end d-md-none">icon</div>
-                <div class="col-6 text-bg-secondary text-end d-none d-md-block">icon2</div>
+        <nav class="navbar navbar-expand-md h-100 navbar-dark bg-custom-dark-blue">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-4 fw-bold" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
 
     <!-- Jumbotron -->
     <section class="start-bootstrap py-3">
-        <div class="jumbotron container-fluid container-md">
+        <div class="jumbotron container-md">
             <div class="row d-flex justify-content-center">
                 <div class="col-11 col-md-8 col-lg-6 text-bg-primary d-flex justify-content-center align-items-center">jumbotron</div>
             </div>
@@ -35,7 +49,7 @@
 
     <!-- Section portfolio with cards -->
     <section class="portfolio py-3">
-        <div class="content-portfolio container-fluid container-md">
+        <div class="content-portfolio container">
             <div class="row d-flex justify-content-center pb-3">
                 <div class="col-4 text-bg-secondary d-flex justify-content-center align-items-center">porfolio</div>
             </div>
@@ -52,16 +66,16 @@
 
     <!-- Section about -->
     <section class="about py-3">
-        <div class="about-content container-fluid container-md">
+        <div class="about-content container">
             <div class="row d-flex justify-content-center pb-3">
                 <div class="col-4 text-bg-warning">r</div>
             </div>
             <div class="row d-flex justify-content-center pb-3">
-                <div class="col-10 col-md-9 col-lg-5 text-bg-primary">w</div>
-                <div class="col-10 col-md-9 col-lg-5 text-bg-success">w</div>
+                <div class="col-10 col-md-5 col-lg-5 text-bg-primary">w</div>
+                <div class="col-10 col-md-5 col-lg-5 text-bg-success">w</div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-1 button d-flex justify-content-center">button</div>
+                <div class="col-2 button d-flex justify-content-center">button</div>
             </div>
         </div>
     </section>
@@ -69,7 +83,7 @@
     
     <!-- Section contact me -->
     <section class="contact py-3">
-        <div class="contact-content container-fluid container-md">
+        <div class="contact-content container">
             <div class="row d-flex justify-content-center pb-3">
                 <div class="col-4 text-bg-warning">r</div>
             </div>
@@ -84,18 +98,18 @@
 
     <!-- Section information -->
     <section class="information py-3">
-        <div class="information-content container-fluid container-md">
+        <div class="information-content container">
             <div class="row d-flex justify-content-center">
-                <div class="col-11 col-md-4 text-bg-primary"></div>
-                <div class="col-11 col-md-4 text-bg-secondary"></div>
-                <div class="col-11 col-md-4 text-bg-success"></div>
+                <div class="col-11 col-md-4 bg-primary"></div>
+                <div class="col-11 col-md-4 bg-secondary"></div>
+                <div class="col-11 col-md-4 bg-success"></div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container-fluid container-md h-100">
+        <div class="container h-100">
             <div class="row h-100 d-flex justify-content-center align-items-center">
                 <div class="col-3 text-light text-bg-warning d-flex align-items-center justify-content-center">copyright</div>
             </div>
