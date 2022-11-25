@@ -53,8 +53,12 @@
         color: var(--dark-blue);
     } */
 
+    .contact .form-control:focus {
+        box-shadow: none;
+    }
 
-    
+
+
 
 
     .information {
