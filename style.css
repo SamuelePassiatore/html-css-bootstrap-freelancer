@@ -39,6 +39,12 @@
         color: var(--green);
     }
 
+    .line {
+        height: 4px;
+        width: 80px;
+        border-radius: 10px;
+    }
+
     /* Sections */
 
     /* Jumbotron */
@@ -46,14 +52,31 @@
         background-color: var(--green);
     }
 
+    .start-bootstrap img {
+        height: 350px;
+    }
+
+
     /* Section about */
     .about {
         background-color: var(--green);
     }
 
+    .about .btn:hover {
+        background-color: transparent;
+    }
+
     /* Section contact  */
     .contact textarea.form-control::placeholder {
         color: var(--dark-blue);
+    }
+
+    .contact .btn:hover {
+        background-color: var(--green);
+    }
+
+    .contact .btn:hover span{
+        color: var(--black);
     }
 
     .contact .form-control:focus {
@@ -72,6 +95,13 @@
         border: 1px solid white;
         line-height: 40px;
     }
+
+    /* Footer */
+    footer .fa-copyright {
+        font-size: 12px;
+    }
+
+
 
 
 
